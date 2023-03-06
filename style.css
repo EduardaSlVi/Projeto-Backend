@@ -1,0 +1,70 @@
+ body {
+	font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    background-color: #add0fe;
+}
+
+div {
+	max-width: 200px;
+	margin: 0 auto;
+	padding: 100px;
+	background-color: #ffffffda;
+	border-radius: 8px;
+	box-shadow: 0 0 5px #2f80ce;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input {
+	padding: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px #1a6cab62;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+.data_nascimento {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+  }
+  
+  input[type="date"] {
+	padding: 5px;
+	border: none;
+	box-shadow: 0 0 5px #1a6cab62;
+	border-radius: 5px;
+	font-size: 16px;
+  }
+
+  
+  
+  
+  
+  
+  
